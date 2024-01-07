@@ -1472,6 +1472,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1101bc9a-437e-4309-beab-2a1e446346d2_product-1.jpg1101bc9a-437e-4309-beab-2a1e446346d2_product-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1aa26392-59e9-4b34-9874-f6b257ac3d6f_offer-2.jpg1aa26392-59e9-4b34-9874-f6b257ac3d6f_offer-2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Agency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Agency</BasePath>
+      <RelativePath>assets/img/1aa26392-59e9-4b34-9874-f6b257ac3d6f_offer-2.jpg1aa26392-59e9-4b34-9874-f6b257ac3d6f_offer-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1aa26392-59e9-4b34-9874-f6b257ac3d6f_offer-2.jpg1aa26392-59e9-4b34-9874-f6b257ac3d6f_offer-2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a5b86c5b-6085-4d0e-8ee9-b62d3492eba5_carousel-3.jpga5b86c5b-6085-4d0e-8ee9-b62d3492eba5_carousel-3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Agency</SourceId>
