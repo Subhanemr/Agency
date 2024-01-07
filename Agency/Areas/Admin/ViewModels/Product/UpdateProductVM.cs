@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using a = Agency.Models;
 
-namespace Agency.Areas.Admin.ViewModels.Product
+namespace Agency.Areas.Admin.ViewModels
 {
     public class UpdateProductVM
     {

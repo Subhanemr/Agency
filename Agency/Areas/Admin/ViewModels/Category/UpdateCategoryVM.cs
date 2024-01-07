@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Agency.Areas.Admin.ViewModels.Category
+namespace Agency.Areas.Admin.ViewModels
 {
     public class UpdateCategoryVM
     {

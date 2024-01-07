@@ -1,4 +1,4 @@
-﻿using Agency.Areas.Admin.ViewModels.Product;
+﻿using Agency.Areas.Admin.ViewModels;
 using Agency.DAL;
 using Agency.Models;
 using Agency.Utilities.Extentions;

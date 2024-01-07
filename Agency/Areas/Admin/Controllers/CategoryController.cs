@@ -1,4 +1,4 @@
-﻿using Agency.Areas.Admin.ViewModels.Category;
+﻿using Agency.Areas.Admin.ViewModels;
 using Agency.DAL;
 using Agency.Models;
 using Microsoft.AspNetCore.Mvc;
