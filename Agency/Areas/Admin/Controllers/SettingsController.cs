@@ -8,6 +8,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Agency.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+    [Authorize]
+    [AutoValidateAntiforgeryToken]
+
     public class SettingsController : Controller
     {
         private readonly AppDbContext _context;
@@ -16,6 +20,7 @@ namespace Agency.Areas.Admin.Controllers
         {
             _context = context;
         }
+        [Authorize]
 
         public async Task<IActionResult> Index(int page)
         {
@@ -35,6 +40,8 @@ namespace Agency.Areas.Admin.Controllers
 
             return View(paginationVM);
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
 
         public IActionResult Create()
         {
@@ -61,6 +68,8 @@ namespace Agency.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
 
         public async Task<IActionResult> Update(int id)
         {
@@ -96,7 +105,7 @@ namespace Agency.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         [AutoValidateAntiforgeryToken]
         public async Task<IActionResult> Delete(int id)
         {

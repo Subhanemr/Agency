@@ -9,77 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Agency
 build_property.RootNamespace = Agency
-build_property.ProjectDir = C:\Users\T x\Desktop\Agency\Agency\
+build_property.ProjectDir = C:\Users\ca.r214.17\Desktop\Agency\Agency\Agency\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\T x\Desktop\Agency\Agency
+build_property.MSBuildProjectDirectory = C:\Users\ca.r214.17\Desktop\Agency\Agency\Agency
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Category/Create.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Account/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Category/Update.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Category/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Product/Create.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Product/Index.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Product/Update.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Settings/Create.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Settings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Settings/Index.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Settings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Settings/Update.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Settings/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Views/Home/Index.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Views/Shared/_Layout.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Views/_ViewImports.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/T x/Desktop/Agency/Agency/Views/_ViewStart.cshtml]
+[C:/Users/ca.r214.17/Desktop/Agency/Agency/Agency/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

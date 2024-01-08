@@ -2,12 +2,16 @@
 using Agency.DAL;
 using Agency.Models;
 using Agency.Utilities.Extentions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Agency.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+    [AutoValidateAntiforgeryToken]
+
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -18,12 +22,16 @@ namespace Agency.Areas.Admin.Controllers
             _context = context;
             _env = env;
         }
+        [Authorize]
 
         public async Task<IActionResult> Index()
         {
             ICollection<Product> products = await _context.Products.Include(c => c.Category).ToListAsync();
             return View(products);
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
+
         public async Task<IActionResult> Create()
         {
             CreateProductVM create = new CreateProductVM
@@ -32,6 +40,7 @@ namespace Agency.Areas.Admin.Controllers
             };
             return View(create);
         }
+
         [HttpPost]
         public async Task<IActionResult> Create(CreateProductVM create)
         {
@@ -71,6 +80,9 @@ namespace Agency.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
+
         public async Task<IActionResult> Update(int id)
         {
             if (id <= 0) return BadRequest();
@@ -129,6 +141,9 @@ namespace Agency.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
+
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0) return BadRequest();

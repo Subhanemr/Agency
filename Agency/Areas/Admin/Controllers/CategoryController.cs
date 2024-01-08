@@ -1,12 +1,17 @@
 ﻿using Agency.Areas.Admin.ViewModels;
 using Agency.DAL;
 using Agency.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Agency.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+    [AutoValidateAntiforgeryToken]
+
+
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
@@ -15,12 +20,16 @@ namespace Agency.Areas.Admin.Controllers
         {
             _context = context;
         }
+        [Authorize]
 
         public async Task<IActionResult> Index()
         {
             ICollection<Category> categories = await _context.Categories.Include(x => x.Products).ToListAsync();
             return View(categories);
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
+
         public IActionResult Create()
         {
             return View();
@@ -41,6 +50,9 @@ namespace Agency.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
+
         public async Task<IActionResult> Update(int id)
         {
             if (id <= 0) return BadRequest();
@@ -70,6 +82,9 @@ namespace Agency.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        [Authorize]
+        [AutoValidateAntiforgeryToken]
+
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0) return BadRequest();
